@@ -1,0 +1,46 @@
+#verbs-container{
+  margin: 0 35%;
+}
+
+.verbs-answer{
+  display: block;
+}
+
+#next{
+  margin-top: 10rem;
+  cursor: pointer;
+  color: green;
+}
+
+.rightAnswer, .rightAnswer:hover{
+  background-color: #33ff00;
+  border-color: #33ff00;
+  color: #ffffff;
+}
+
+.wrongAnswer, .wrongAnswer:hover{
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #ffffff;
+}
+
+#all-wrong-answers{
+  color: #ff0000;
+}
+#all-right-answers{
+  color:#33ff00;
+}
+
+#Porcentaje{
+  background-color: rgb(255, 60, 1);
+}
+
+#refresh{
+  background-color: #085255;
+  
+}
+
+.contenedor{
+  display: flex;
+  justify-content:center;
+}
